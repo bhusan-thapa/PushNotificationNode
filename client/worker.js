@@ -4,6 +4,7 @@ self.addEventListener('push', e => {
   console.log('Push Recieved');
   self.registration.showNotification(data.title, {
     body: 'Notified by Shumsher',
-    icon: 'http://image.ibb.co/frYOFd/tmlogo.png'
+    icon:
+      'https://image.freepik.com/free-icon/cia-shield-symbol-with-an-eagle_318-64615.jpg'
   });
 });
